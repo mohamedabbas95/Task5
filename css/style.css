@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homebackground{
+    height: 100vh;
+    background-image: url(../images/M3-Homepage-Desktop-LHD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.select ul{
+    max-width: 450px;
+    list-style-type: none;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.select ul li {
+    cursor: pointer;
+    padding: 5px;
+}
+.select ul li:hover{
+    background-color: rgb(168, 168, 168);
+    color: white;
+    transition: .3s;
+}
+.info{
+    width: 50%;
+}
+
+.ListStyle{
+    list-style-type: none; 
+}
+.ListStyle li{
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.ListStyle li img {
+    width: 50px;
+    height: 50px;  
+}
+
+.ListStyle li:hover{
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+.cart{
+    height: 550px;
+    border-left: 1px solid gray;
+}
+.ml{
+    margin-left: 20%;
+}
+.add{
+    list-style-type: none;
+    text-align: center;
+    font-size: 26px;
+}
+hr{
+    width: 50%;
+    border: 1px solid lightslategray;
+}
+.settingIcon{
+  margin-left: 5px;
+    animation-name: rotat ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    color: white;
+}
+@keyframes rotat {
+     100% {
+        transform: rotate(360deg);   
+     }
+
+}
+
+
